@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/showtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose One"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/rgAnimal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbBird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bird" />
+
+        <RadioButton
+            android:id="@+id/rbCat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cat" />
+        <RadioButton
+            android:id="@+id/rbFish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fish" />
+
+    </RadioGroup>
+
+<ImageView
+    android:id="@+id/viewImage"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_margin="20dp"
+    android:layout_gravity="center"
+    android:src="@drawable/ic_launcher_background" />
+
+
+
+</LinearLayout>
